@@ -59,8 +59,8 @@ public class Vendor1 extends javax.swing.JFrame {
                 for(int i=1; i<= a; i++){
                     v2.add(rs.getString("id"));
                     v2.add(rs.getString("name"));
-                    v2.add(rs.getString("email"));
                     v2.add(rs.getString("phone"));
+                    v2.add(rs.getString("email"));
                     v2.add(rs.getString("address"));
                     
                 }
@@ -162,7 +162,7 @@ public class Vendor1 extends javax.swing.JFrame {
                 .addContainerGap(25, Short.MAX_VALUE))
         );
 
-        jButton4.setText("Cancel");
+        jButton4.setText("Clear");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton4ActionPerformed(evt);
