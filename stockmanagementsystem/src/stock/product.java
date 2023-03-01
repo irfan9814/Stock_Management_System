@@ -403,9 +403,9 @@ public class product extends javax.swing.JFrame {
             load();
             
         } catch (ClassNotFoundException ex) {
-            Logger.getLogger(Vendor1.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(product.class.getName()).log(Level.SEVERE, null, ex);
         } catch (SQLException ex) {
-            Logger.getLogger(Vendor1.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(product.class.getName()).log(Level.SEVERE, null, ex);
         }
     
     }//GEN-LAST:event_jButton1ActionPerformed
